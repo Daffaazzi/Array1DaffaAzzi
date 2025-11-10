@@ -13,7 +13,6 @@ public class ArrayNilai08 {
                 System.out.println("Nilai akhir ke-"+i+" adalah : "+nilaiAkhir[i]);
             
         }
-
-      
+        
     }
 }
