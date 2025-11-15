@@ -19,7 +19,8 @@ public class ArrayRataNilai08 {
 
             for (int i = 0; i < nilaiMhs.length; i++){
                 total += nilaiMhs[i];
-                if (nilaiMhs[i] >= 70){ // pertanyaan no 1
+                // pertanyaan no 1
+                if (nilaiMhs[i] >= 70){
                     System.out.println("Mahasiswa ke-"+(i+1)+" : "+nilaiMhs[i]+" (Lulus)");
                     totalLulus += nilaiMhs[i];
                     jmlLulus++;
@@ -40,7 +41,7 @@ public class ArrayRataNilai08 {
 
             rata2 = (jumlahMhs > 0) ? total / jumlahMhs : 0;
 
-            System.out.println("Rata-rata nilai mahasiswa: " + rata2); // pertanyaan no 2  
+            // pertanyaan no 2  
             System.out.println("Rata-rata nilai mahasiswa yang lulus: " + rataLulus);
             System.out.println("Rata-rata nilai mahasiswa yang tidak lulus: " + rataTidakLulus);   
         }
