@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Tugas2 {
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("=== Program Kasir Sederhana ===");
         System.out.println();
@@ -36,7 +36,7 @@ public class Tugas2 {
             System.out.println("Pesanan ke-" + (i + 1) + ": " + namaBarang[i] + " - Rp " + hargaBarang[i]);
         }
         System.out.println("Total Harga: Rp " + totalHarga);
-
-        }
+sc.close();
     }
+    
 }
